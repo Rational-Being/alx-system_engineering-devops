@@ -1,1 +1,1 @@
-Shell PErmissions
+shell basics
