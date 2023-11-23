@@ -4,8 +4,8 @@
 f="school"
 if [ -e $f ]
 then
-	echo "$f file esits"
-	if [ -s "school" ]
+	echo "$f file exists"
+	if [ -s $f ]
 	then
 		echo "$f file is not empty"
 	else
