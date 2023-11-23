@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#prints username, id and home dir for etc passwd file
+
+f="apache-access.log"
+awk -F' ' '{ print $1, $9}' $f | sort | uniq -c | sort -b
