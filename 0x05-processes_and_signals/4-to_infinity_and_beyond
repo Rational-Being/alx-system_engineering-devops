@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#A bash script tat prints it s own PID
+
+while [ 1 ]
+do 
+	echo "To Infinity and beyond"
+	sleep 2
+done
+while [ 1 ]
+do 
+	echo "To Infinity and beyond"
+	sleep 2
+done
