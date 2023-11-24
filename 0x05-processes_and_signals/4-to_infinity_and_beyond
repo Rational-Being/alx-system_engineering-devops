@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #A bash script tat prints it s own PID
 
-while [ 1 ]
+while true
 do 
 	echo "To Infinity and beyond"
 	sleep 2
