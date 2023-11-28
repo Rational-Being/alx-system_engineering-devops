@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#A bash script tat prints it s own PID
+
+kill "$(ps -aux | pgrep -f 5-dont_stop_me_now)"

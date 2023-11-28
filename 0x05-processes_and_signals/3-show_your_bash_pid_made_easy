@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#A bash script tat prints it s own PID
+
+./1-list_your_processes | pgrep -l bash
