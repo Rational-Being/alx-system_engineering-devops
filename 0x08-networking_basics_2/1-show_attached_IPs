@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script displays all ipv4 address present on the machine
+
+ifconfig | awk '/inet[^6]/{print $2}' | cut -d':' -f2

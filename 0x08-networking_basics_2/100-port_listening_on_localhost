@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script displays all ipv4 address present on the machine
+
+nc -l localhost 98
