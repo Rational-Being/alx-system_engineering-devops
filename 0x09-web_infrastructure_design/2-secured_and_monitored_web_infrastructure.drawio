@@ -1,0 +1,288 @@
+<mxfile host="65bd71144e">
+    <diagram id="pcLMPnf7S4f5gRxfVi-A" name="Page-1">
+        <mxGraphModel dx="6210" dy="4288" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;fontFamily=Tahoma;fontSize=20;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2069.77" y="171.46000000000004" width="513.47" height="513.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=mxgraph.cisco.computers_and_peripherals.web_browser;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-370" y="-200.47" width="200.07" height="206.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=mxgraph.cisco.servers.file_server;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2400.86" y="302.99" width="87.83" height="118.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=mxgraph.cisco.storage.relational_database;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=default;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2389.77" y="498.46000000000004" width="80" height="93.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2129.77" y="324.6700000000001" width="73" height="105.26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=mxgraph.cisco.wireless.ground_terminal;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-36.5" y="-900.47" width="99" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=mxgraph.cisco.storage.cloud;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="-850.47" width="186" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;INTERNET&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-56.5" y="-742.26" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;WEB CLIENT&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-341.72" y="33.199999999999974" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;WEB SERVER&lt;br&gt;(NGINX)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2086.27" y="429.92999999999995" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DATABASE&lt;br&gt;(MySQL)&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2364.77" y="581.46" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;APPLICATION SERVER&lt;br&gt;(Python 3.12)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2319.77" y="421.46000000000004" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;CODE BASE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2086.27" y="591.46" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="line;strokeWidth=4;direction=west;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Tahoma;fontSize=20;fillColor=none;rotation=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2069.77" y="251.46" width="510" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.dns_server;fillColor=#005073;strokeColor=none;strokeWidth=10;fontFamily=Tahoma;fontSize=20;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="-881.21" width="78.65" height="143" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.folder;strokeWidth=10;fontFamily=Tahoma;fontSize=20;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2110.34" y="505.63" width="91.86" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;8.8.8.8&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2126.27" y="201.46" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=mxgraph.cisco.storage.cloud;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="199.73000000000002" width="186" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;HTTP Request&lt;br&gt;www.foobar.com&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="-366.72" y="-570.47" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;Encrypeted HTTP Response:&lt;br&gt;Static File&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="222.73000000000002" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;Name: www.foobar.com&lt;br&gt;IP Adress: 8.8.8.8&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="-793.94" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;INTERNET&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="309.73" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;fontFamily=Tahoma;fontSize=20;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1363.5" y="171.46000000000004" width="513.47" height="513.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=mxgraph.cisco.servers.file_server;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1694.59" y="302.99" width="87.83" height="118.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=mxgraph.cisco.storage.relational_database;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=default;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1683.5" y="498.46000000000004" width="80" height="93.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1423.5" y="324.66999999999996" width="73" height="105.26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;WEB SERVER&lt;br&gt;(NGINX)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="429.92999999999995" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DATABASE&lt;br&gt;(MySQL)&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1658.5" y="581.46" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;APPLICATION SERVER&lt;br&gt;(Python 3.12)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1613.5" y="421.46000000000004" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;CODE BASE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1380" y="591.46" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="line;strokeWidth=4;direction=west;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Tahoma;fontSize=20;fillColor=none;rotation=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1363.5" y="251.46" width="510" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.folder;strokeWidth=10;fontFamily=Tahoma;fontSize=20;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1404.0700000000002" y="505.63" width="91.86" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;8.8.8.8&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1446.5" y="201.46000000000004" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Replica/Slave&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1603.5" y="189.73000000000002" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="-600.47" width="195.5" height="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;fontFamily=Tahoma;fontSize=20;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1754.36" y="-979" width="513.47" height="513.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="shape=mxgraph.cisco.servers.file_server;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2085.4500000000003" y="-847.47" width="87.83" height="118.47" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="shape=mxgraph.cisco.storage.relational_database;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=default;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2074.36" y="-652" width="80" height="93.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=mxgraph.cisco.servers.standard_host;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1814.36" y="-825.79" width="73" height="105.26" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;WEB SERVER&lt;br&gt;(NGINX)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1770.86" y="-720.53" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DATABASE&lt;br&gt;(MySQL)&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2049.36" y="-569" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;APPLICATION SERVER&lt;br&gt;(Python 3.12)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2004.3600000000001" y="-729" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Tahoma&quot;&gt;CODE BASE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1770.86" y="-559" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="line;strokeWidth=4;direction=west;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Tahoma;fontSize=20;fillColor=none;rotation=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1754.36" y="-899" width="510" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.folder;strokeWidth=10;fontFamily=Tahoma;fontSize=20;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1794.93" y="-644.8299999999999" width="91.86" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;8.8.8.8&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1930.8600000000001" y="-960.73" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Master&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2099.36" y="-960.73" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=mxgraph.cisco.computers_and_peripherals.upc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1506.5" y="789.73" width="201.05" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="shape=mxgraph.cisco.computers_and_peripherals.upc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="2239.77" y="789.73" width="201.05" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="shape=mxgraph.cisco.computers_and_peripherals.upc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="2334.59" y="-829" width="201.05" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1603.5" y="-186.99999999999997" width="90.9" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1584.59" y="-847.47" width="90.9" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="2287.37" y="-200.47" width="90.9" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Firewall&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1554.59" y="39.53" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Firewall&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1554.59" y="-619" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Firewall&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2262.82" y="23" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Load Balancer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;fontColor=#00331A;" vertex="1" parent="1">
+                    <mxGeometry x="875.5" y="-370.4699999999999" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Monitoring&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2345.11" y="-619" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Monitoring&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2220.86" y="999.53" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Monitoring&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1496.5" y="1009.53" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ssl_padlock;fillColor=#D2D3D3;gradientColor=none;fontColor=#00331A;" vertex="1" parent="1">
+                    <mxGeometry x="894.23" y="-932.26" width="185.77" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 35px;&quot; face=&quot;Tahoma&quot;&gt;SSL&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1046.5" y="-738.21" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Port 443" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontColor=#00331A;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="940" y="-666.3000000000001" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Tahoma&quot;&gt;Replica/Slave&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2339.77" y="189.73000000000002" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=0.4;entryY=1.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-258.7199999999998" y="-220.2899999999997" as="sourcePoint"/>
+                        <mxPoint x="-260" y="-470.47" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="-275" y="-590.47" as="sourcePoint"/>
+                        <mxPoint x="-110" y="-780.47" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-275" y="-780.47"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="210" y="-811.71" as="sourcePoint"/>
+                        <mxPoint x="870" y="-812.47" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;endSize=8;startSize=8;strokeWidth=5;fontSize=30;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1136.5" y="-548.7400000000001" as="sourcePoint"/>
+                        <mxPoint x="1550" y="-730.47" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="" style="endArrow=classic;html=1;fontSize=35;fontColor=#00331A;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2000.8600000000001" y="-480.47" as="sourcePoint"/>
+                        <mxPoint x="2000.8600000000001" y="-370.47" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=none;html=1;fontSize=35;fontColor=#00331A;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1658.5" y="-370.47" as="sourcePoint"/>
+                        <mxPoint x="2340" y="-370.47" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="&amp;nbsp;" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="125" y="-779.26" as="sourcePoint"/>
+                        <mxPoint x="225" y="-779.26" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="endArrow=classic;html=1;fontSize=35;fontColor=#00331A;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2339.7700000000004" y="-370.4699999999998" as="sourcePoint"/>
+                        <mxPoint x="2338" y="-220.47" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="" style="endArrow=classic;html=1;fontSize=35;fontColor=#00331A;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1658.5000000000005" y="-370.4699999999998" as="sourcePoint"/>
+                        <mxPoint x="1658" y="-200.47" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="V" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;exitX=0.498;exitY=1.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="66">
+                    <mxGeometry x="0.0468" y="-47" width="100" relative="1" as="geometry">
+                        <mxPoint x="860" y="-170.47" as="sourcePoint"/>
+                        <mxPoint x="320" y="296.53" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="990" y="299.53"/>
+                        </Array>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="80" y="259.53" as="sourcePoint"/>
+                        <mxPoint x="-280" y="99.53" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-280" y="259.53"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
