@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#connectin my server with te private key in the school file
+#i cant use the -l flag
+
+ssh -i ~/.ssh/school ubuntu@54.82.20.76
