@@ -1,0 +1,12 @@
+#this is a client configuration file
+#the SSH client configuration is to be configured to a lot of settins
+#for administration ans s4ecurity purpose
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
+    SendEnv LAN LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    
