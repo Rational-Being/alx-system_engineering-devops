@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# this script sets up a web server by installin Nginx
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+mkdir -p /var/www/html
+sudo service nginx start
+echo "Hello world!" > /var/www/html/index.html
+
