@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script confiures a server to sow 404 page
+
+sudo apt-gget -y install nginx
+sudo service nginx start
+echo "Ceci nest pas une page" | sudo tee /usr/share/nginx/html/error_404.html
+sudo sed -i '38i\error_page 404 /error_404.html;' /etc/nginx/sites-available/default
+sudo service nginx restart
