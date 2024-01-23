@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#after my debuggging session i realised all i need to do is install apache
+
+service apache2 start
