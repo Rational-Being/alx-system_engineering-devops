@@ -2,6 +2,8 @@
 #this configures Nginx so that /redirect_me is redirecting to anoter page
 
 sudo apt-get -y install nginx
-sudo service ninx start
-sudo sed -i '37i\rewrite ^/redirect_me http://abdullateef-tech permanent;'  /etc/ninx/sites-available/default
+sudo service nginx start
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
+sudo sed -i '37i\rewrite ^/redirect_me http://abdullateef-tech permanent;'  /etc/nginx/sites-available/default
 sudo service nginx restart

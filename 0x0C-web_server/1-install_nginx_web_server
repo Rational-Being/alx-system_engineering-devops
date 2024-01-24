@@ -6,5 +6,5 @@ sudo apt-get -y install nginx
 
 mkdir -p /var/www/html
 sudo service nginx start
-echo "Hello world!" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.html
 

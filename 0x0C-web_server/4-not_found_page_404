@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 #script confiures a server to sow 404 page
 
-sudo apt-gget -y install nginx
+sudo apt-get -y install nginx
 sudo service nginx start
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
 echo "Ceci nest pas une page" | sudo tee /usr/share/nginx/html/error_404.html
-sudo sed -i '38i\error_page 404 /error_404.html;' /etc/nginx/sites-available/default
+sudo sed -i '37i\rewrite ^/redirect_me http://abdullateef-tech permanent;'  /etc/nginx/sites-available/default
+sudo sed -i "/listen 80 default_server;/a error_page 404 /custom_404.html;\nlocation = /custom_404_.html {\nroot /usr/share/nginx/html;\ninternal;\n}" /etc/nginx/sites-available/default
 sudo service nginx restart
