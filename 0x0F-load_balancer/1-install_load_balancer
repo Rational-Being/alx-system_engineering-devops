@@ -4,7 +4,7 @@
 
 sudo apt-get -y update
 sudo apt-get -y install haproxy
-sudo sed -i "i ENABLED=1" /etc/default/haproxy/
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 echo "frontend http
 	bind *:80
 	mode http
@@ -14,4 +14,4 @@ backend yusuff-backend
 	server 303688-web-01 54.82.20.76 check
 	server 303688-web-01 100.26.161.177 check" >> /etc/haproxy/haproxy.cfg
 
-service haproxy restart
+sudo service haproxy restart
