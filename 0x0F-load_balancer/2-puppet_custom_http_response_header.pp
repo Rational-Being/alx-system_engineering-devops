@@ -11,10 +11,10 @@ package { 'nginx':
 
 file_line { 'setting nginx header':
   path  => '/etc/nginx/nginx.conf',
-  line  => "\tadd_header X-Served-By \${hostname};",
+  line  => "\tadd_header X-Served-By \"${hostname}\";",
   after => 'http {',
 }
 
 exec { 'run nginx':
-  command => '/usr/sbin/service nginx restart'
+  command => '/usr/sbin/service nginx restart',
 }
