@@ -11,7 +11,7 @@ package { 'nginx':
 
 file_line { 'setting nginx header':
   path  => '/etc/nginx/nginx.conf',
-  line  => "\tadd_header X-Served-By ${hostname};",
+  line  => "\tadd_header X-Served-By \${hostname};",
   after => 'http {',
 }
 
