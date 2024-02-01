@@ -2,5 +2,10 @@
 #in this  debugging task i will find out what is keeping an ubuntu contianer's
 #nginx form listening on port 80
 
-sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restart
+#sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+#sudo service nginx restart
+
+apt-get install -y iptables
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+service nginx start
+
