@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#install and configure HAProxy on a load bakancer server
+#the HAProxy will send load to two different servers
+
+sudo apt-get -y update
+sudo apt-get -y install haproxy
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+cat >> /etc/haproxy/haproxy.confg << EOF
+
+frontend http
+	bind *:80
+	mode http
+	default_backend yusuffbackend
+backend yusuff-backend
+	balance roundrobin
+	server 303688-web-01 54.82.20.76 check
+	server 303688-web-01 100.26.161.177 check
+
+EOF
+
+sudo service haproxy restart
