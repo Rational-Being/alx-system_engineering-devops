@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+#this solution fin tunes the solution in task 0
 
 sed -i 's/8080/80/g' /etc/nginx/sites-{available,enabled}/default
 service nginx restart
