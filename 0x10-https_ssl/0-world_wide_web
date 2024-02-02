@@ -6,18 +6,17 @@
 domain_check() {
 	arg1=$1
 	arg2=$2
-	arg3=$3
-	query = $(dig "arg2"."arg$1" | grep -A1 'ANSWER SECTION' | tr '\t' '\n' | tail -n 2 | tr '\n' ' ')
-	echo "arg2 $query" | awk '{print "The subdomain " arg1 " is a " arg2 " record and points to " arg3}'
+	query=$(dig "$arg2"."$arg1" | grep -A1 'ANSWER SECTION' | tr '\t' '\n' | tail -n 2 | tr '\n' ' ')
+	echo "$arg2 $query" | awk '{print "The subdomain " $arg1 " is a " $arg2 " record and points to " $3}'
 }
 
 
-if ["$#" -eq 1 ]; then
-	domain_check "arg1" "www"
-	domain_check "arg1" "lb-01"
-	domain_check "arg1" "web-01"
-	domain_check "arg1" "web-02"
+if [ "$#" -eq 1 ]; then
+	domain_check "$1" "www"
+	domain_check "$1" "lb-01"
+	domain_check "$1" "web-01"
+	domain_check "$1" "web-02"
 elif [ "$#" -eq 2 ]; then
-	dns_config "arg1" "arg2"
+	dns_config "$arg1" "$arg2"
 fi
 
