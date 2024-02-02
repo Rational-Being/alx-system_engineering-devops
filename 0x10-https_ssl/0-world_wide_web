@@ -17,6 +17,6 @@ if [ "$#" -eq 1 ]; then
 	domain_check "$1" "web-01"
 	domain_check "$1" "web-02"
 elif [ "$#" -eq 2 ]; then
-	dns_config "$arg1" "$arg2"
+	domain_check "$1" "$2"
 fi
 
