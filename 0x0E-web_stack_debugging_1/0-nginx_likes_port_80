@@ -5,6 +5,7 @@
 #sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #sudo service nginx restart
 
+sudo service nginx start
 sudo apt-get install -y iptables
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 cp -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
