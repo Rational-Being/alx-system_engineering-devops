@@ -49,9 +49,8 @@ frontend yusuff-frontend
 	default_backend yusuff-backend
 
 backend yusuff-backend
-	#redirect schemem https code 301 of !{ ssl_fc }
+	redirect scheme https code 301 if !{ ssl_fc }
 	balance roundrobin
-	redirect scheme https if !{ ssl_fc }
 	server 303688-web-01 54.82.20.76:80 check 
 	server 303688-web-02 100.26.161.177:80 check 
 
