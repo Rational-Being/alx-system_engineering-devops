@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #this script uses switches to nginx instead of roor ad a user to
 pkill apache2
-sudo chown -R nginx /etc/nginx/
-sudo sed -i "s/80/8080/g" /etc/nginx/sites-available/default
-sudo chmod 644 /etc/nginx/nginx.conf
+chown -R nginx /etc/nginx/
+sed -i "s/80/8080/g" /etc/nginx/sites-available/default
+chmod 644 /etc/nginx/nginx.conf
 sudo -u nginx service nginx restart
-
