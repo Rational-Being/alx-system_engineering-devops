@@ -4,7 +4,7 @@
 
 useradd -r nginx
 sudo -u nginx
-pkill apache
+pkill apache22
 chown nginx /etc/nginx/nginx.conf
 sed -i "s/80/8080/g" /etc/nginx/sites-available/default
 chmod 644 /etc/nginx/nginx.conf
