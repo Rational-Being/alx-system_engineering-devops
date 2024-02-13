@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this script he whoami command using the user passwed to it
+
+sudo -u "$1" whoami

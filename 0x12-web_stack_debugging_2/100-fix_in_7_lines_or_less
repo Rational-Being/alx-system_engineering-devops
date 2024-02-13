@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#this script uses switches to nginx instead of roor ad a user to
+sudo chown nginx /etc/nginx/nginx.conf
+sudo sed -i "s/80/8080/g" /etc/nginx/sites-available/default
+sudo chmod u+r /etc/nginx/nginx.conf
+pkill apache
+sudo -u nginx service nginx restart
+
