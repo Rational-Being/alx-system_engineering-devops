@@ -19,11 +19,8 @@ if __name__ == "__main__":
                 -_id = user.get("id")
                 username = user.get("username")
                 
-            dictionary = {}
-            dictionary["task"] = task.get("title")
-            dictionary["completed"] = task.get("completed")
-            dictionary["username"] = username
+                "task": task.get("title")
+            "completed": task.get("completed")
+            "username": username
             total_tasks.append(dictionary))
     
-    with open("{}.json".format(argv[1]), "w") as file:
-        dump({argv[1]: dictionary}, file)
