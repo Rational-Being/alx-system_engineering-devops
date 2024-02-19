@@ -11,7 +11,8 @@ from requests import get
 from sys import argv
 
 if __name__ == "__main__":
-    base_url = "https://jsonplaceholder.typicode.com.users/{}".format(argv[1])
+    _id = argv[1]
+    base_url = "https://jsonplaceholder.typicode.com.users/{}".format(_id)
     username = get(base_url).json().get('username')
    
     task_url = "https://jsonplaceholder.typicode.com/todos"
@@ -26,5 +27,5 @@ if __name__ == "__main__":
             dictionary["username"] = username
             total_tasks.append(dictionary)
     
-    with open("{}.json".format(argv[1]), "w") as file:
-        dump({argv[1]: dictionary}, file)
+    with open("{}.json".format(_id), "w") as file:
+        dump({_id: dictionary}, file)
