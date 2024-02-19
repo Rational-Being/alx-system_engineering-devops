@@ -12,7 +12,7 @@ if __name__ == '__main__':
     _id = argv[1]
     base_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(_id)
     response = get(base_url)
-    employee_name = response.json().get('employee_name')
+    employee_name = response.json().get('name')
 
     task_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(_id)
     response = get(task_url)
@@ -26,7 +26,7 @@ if __name__ == '__main__':
             total_tasks.append(task)
             done_tasks += 1
 
-    print('Employee {} is done with tasks({}/{}:)'.format(employeeName, done_tasks, len(tasks)))
+    print('Employee {} is done with tasks({}/{}:)'.format(employee_name, done_tasks, len(tasks)))
 
     for task in total_tasks:
         print('\t {}'.format(task.get('title')))
