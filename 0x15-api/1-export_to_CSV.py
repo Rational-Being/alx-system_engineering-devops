@@ -1,20 +1,20 @@
 #!/usr/bin/python3
 
-"""
+'''
 a pythons scriptthat uses the rest api orm the code
 for a given emplyee id, it returns information about his/her TODO list progress
-in csv format
-"""
+'''
 
 from requests import get
 from sys import argv
 
-if __name__ == "__main__":
-    base_url = "https://jsonplaceholder.typicode.com.users/{}".format(argv[1])
+if __name__ == '__main__':
+    _id = argv[1]
+    base_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(_id)
     response = get(base_url)
-    employeeName = response.json().get("name")
+    employee_name = response.json().get('name')
 
-    task_url = "https://jsonplaceholder.typicode.com/users/{}/todos".format(argv[1])
+    task_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(_id)
     response = get(task_url)
     tasks = response.json()
 
@@ -22,6 +22,6 @@ if __name__ == "__main__":
         for task in tasks:
             csvfile.write(
                 '"{}","{}","{}","{}"\n'.format(
-                    argv[1], username, task.get("completed"), task.get("title")
+                    _id, employee_name, task.get("completed"), task.get("title")
                 )
             )
