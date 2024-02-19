@@ -12,13 +12,13 @@ if __name__ == '__main__':
     _id = argv[1]
     base_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(_id)
     response = get(base_url)
-    employee_name = response.json().get('name')
+    employee_name = response.json().get('username')
 
     task_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(_id)
     response = get(task_url)
     tasks = response.json()
 
-    with open("{}.csv".format(argv[1]), "w") as csvfile:
+    with open("{}.csv".format(_id), "w") as csvfile:
         for task in tasks:
             csvfile.write(
                 '"{}","{}","{}","{}"\n'.format(
