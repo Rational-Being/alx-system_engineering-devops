@@ -14,7 +14,8 @@ if __name__ == '__main__':
     response = get(base_url)
     employee_name = response.json().get('username')
 
-    task_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(_id)
+    task_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(
+            _id)
     response = get(task_url)
     tasks = response.json()
 
@@ -22,6 +23,7 @@ if __name__ == '__main__':
         for task in tasks:
             csvfile.write(
                 '"{}","{}","{}","{}"\n'.format(
-                    _id, employee_name, task.get("completed"), task.get("title")
+                    _id, employee_name, task.get("completed"),
+                    task.get("title")
                 )
             )
