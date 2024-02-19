@@ -3,7 +3,6 @@
 """
 a pythons scriptthat uses the rest api orm the code
 for a given emplyee id, it returns information about his/her TODO list progress
-in csv format
 """
 
 from json import dump
