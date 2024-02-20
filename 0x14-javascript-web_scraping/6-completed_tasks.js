@@ -10,10 +10,13 @@ request(process.argv[2], (error, response, body) => {
 
         const data = JSON.parse(body);
         for (let i = 0; i < data.length; i++) {
-            if ((data[i].completed === true) && !(count[data[i].userId])) {
-                count[data[i].userId]++;
+            if (data[i].completed === true) {
+		    if (!(count[data[i].userId])) {
+
+                count[data[i].userId] = 0;
             }
+            count[data[i].userId]++;
         }
         console.log(count);
     }
-});
+};
