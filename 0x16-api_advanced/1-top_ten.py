@@ -17,7 +17,7 @@ def top_ten(subreddit):
     response = get(url, headers=headers)
     subs = response.json()
 
-    if response.status_code is 404:
+    if response.status_code == 404:
         print("None")
     elif "data" not in subs:
         print("None")

@@ -12,12 +12,12 @@ def number_of_subscribers(subreddit):
     this funtion quaries reddit api
     """
 
-    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    headers = {"user-agent": "Brave Browser"}
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
+    headers = {"User-Agent": "Mozilla/5.1"}
     response = get(url, headers=headers)
-    subs = response.json()
 
     try:
-        return int(subs.get("data").get("subscribers"))
+        _subs = response.json()
+        return _subs.get("data").get("subscribers")
     except Exception:
         return 0
