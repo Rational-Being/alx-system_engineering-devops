@@ -1,6 +1,5 @@
 #this puppet code debugs a server error in a wordpress website
-
 exec { 'remove phpp':
-  path => '/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin',
-  command => "sed -i 's/ .phpp/ .php/g' /var/www/html/wp-settings.php",
+  command => "sed -i 's/class-wp-local.phpp/class-wp-locale.php/g' /var/www/html/wp-settings.php",
+  path => '/bin'
 }
