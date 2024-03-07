@@ -1,0 +1,1 @@
+In this folder, I will over the basics of web infrasturcture again, writing an article to review my understnading, making a diagram and contirbutin to a repo 

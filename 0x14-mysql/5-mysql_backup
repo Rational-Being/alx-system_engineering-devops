@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#backing my sql dump so that i can store in i=another data center - REdundancy
+
+mysqldump -uroot -p"$1" --all-databases > backup.sql
+tar -czf $(date +%d-%m-%y).tar.gz backup.sql
